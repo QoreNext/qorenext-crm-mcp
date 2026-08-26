@@ -1,8 +1,8 @@
-# QorenextMCP
+# Qorenext CRM MCP
 
 > Company hierarchy analysis and address verification — via MCP
 
-QorenextMCP is a [Model Context Protocol](https://modelcontextprotocol.io) server that enables Claude and other AI clients to perform company hierarchy analysis and address verification directly in chat.
+Qorenext CRM MCP is a [Model Context Protocol](https://modelcontextprotocol.io) server that enables Claude and other AI clients to perform company hierarchy analysis and address verification directly in chat.
 
 ---
 
@@ -64,16 +64,16 @@ Add to `.cursor/mcp.json` or `.windsurf/mcp.json`:
 |---|---|---|
 | `health_check` | ❌ Public | Verify server is running, get version info |
 | `submit_address_verification` | ✅ API Key | Submit companies for address verification and validation |
-| `submit_hierarchy_creation` | ✅ API Key | Submit companies for organizational hierarchy analysis |
-| `submit_duplicates` | ✅ API Key | Submit duplicate entities from JSON, CSV, or Excel files |
-| `get_request_status` | ✅ API Key | Poll status and retrieve results of any screening request |
+| `submit_hierarchy_creation` | ✅ API Key | Submit companies for corporate hierarchy analysis, including top-parent and subsidiary relationships |
+| `submit_duplicates` | ✅ API Key | Submit CRM account records from JSON, CSV, or Excel files for duplicate detection |
+| `get_request_status` | ✅ API Key | Poll the status and retrieve results for address verification, hierarchy analysis, or duplicate-detection requests |
 
 ---
 
 ### `health_check`
 Verify the server is running. No API key required.
 ```
-check if QorenextMCP is running
+check if Qorenext CRM MCP is running
 ```
 
 ---
@@ -94,7 +94,7 @@ check Samsung at Samsung Tower, Seoul, South Korea
 ---
 
 ### `submit_hierarchy_creation`
-Submit companies for organizational hierarchy analysis to identify parent-subsidiary relationships.
+Submit companies for corporate hierarchy analysis, including top-parent and subsidiary relationships to identify parent-subsidiary relationships.
 
 **Required per entity:** `companyName`, `country`
 
@@ -202,7 +202,7 @@ process JSON file to find similar companies
 ---
 
 ### `get_request_status`
-Poll a screening request for status and results.
+Poll a CRM processing request for status and results.
 
 **Parameter:** `request_id` (int)
 
@@ -210,7 +210,7 @@ Poll a screening request for status and results.
 
 ```
 get status of request 1001
-check if screening 5042 is complete
+check if CRM request 5042 is complete
 ```
 
 ---
@@ -250,7 +250,7 @@ Claude: [calls get_request_status]
 
 ## Support
 
-- Issues: https://github.com/QoreNext-IT/QoreNextMCP/issues
+- Issues: https://github.com/QoreNext/qorenext-crm-mcp/issues
 - Email: support@qorenext.com
 - Docs: https://qorenext.com
 
