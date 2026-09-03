@@ -11,7 +11,7 @@ Qorenext CRM MCP is a [Model Context Protocol](https://modelcontextprotocol.io) 
 Sign up at **https://qorenext-app.azurewebsites.net/signup** to get your `QORENEXT_API_KEY`.
 
 ## Steps to get your API Key
-1. Sign up or log in to the QoreNext Portal. 
+1. Sign up at **https://qorenext-app.azurewebsites.net/signup**. 
 2. Select the CRM On-Demand Data Quality & Enrichment product. 
 3. Choose your subscription plan. 
 4. Open Profile → APIs. 
