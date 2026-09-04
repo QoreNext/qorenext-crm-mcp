@@ -20,15 +20,15 @@ Sign up at **https://qorenext-app.azurewebsites.net/signup** to get your `QORENE
 7. Copy the API key for use in Claude. 
 ---
 
-## Connect
+## How to connect:
 
-### Claude Code
+### 1. Claude Code
 ```bash
 claude mcp add --transport http qorenext-mcp \
   "https://mcp.qorenext.com/crm" \
   --header "X-API-Key: YOUR_API_KEY"
 ```
-### Claude Desktop
+### 2. Claude Desktop
 
 ## Prerequisites to connect the Qorenext CRM MCP server to Claude Desktop
 •	Claude Desktop installed on Windows.  
