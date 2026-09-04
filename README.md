@@ -13,7 +13,7 @@ Sign up at **https://qorenext-app.azurewebsites.net/signup** to get your `QORENE
 ## Steps to get your API Key
 1. Sign up at **https://qorenext-app.azurewebsites.net/signup**. 
 2. Select the CRM On-Demand Data Quality & Enrichment product. 
-3. Choose your subscription plan. 
+3. An active subscription is required to use Qore MCP.
 4. Open Profile → APIs. 
 5. Click Generate API Key. 
 6. Give your API key a name and click Create. 
