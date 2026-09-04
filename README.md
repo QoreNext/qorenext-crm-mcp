@@ -101,11 +101,14 @@ Add to `.cursor/mcp.json` or `.windsurf/mcp.json`:
 ```json
 {
   "mcpServers": {
-    "qorenext-mcp": {
-      "url": "https://mcp.qorenext.com/crm",
-      "headers": {
-        "X-API-Key": "YOUR_API_KEY"
-      }
+    "qorenext": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://mcp.qorenext.com/crm",
+        "--header",
+        "X-API-Key:qore_xxxxx"
+      ]
     }
   }
 }
