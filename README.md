@@ -48,7 +48,7 @@ Both commands should display a version number.
 If you see "command not found", restart your terminal and try again.  
 
 
-### Steps to Setup the Claude Desktop
+### ## Steps to Setup the Claude Desktop
 
 ### 1. Open Claude Desktop  
 Launch the **Claude Desktop** application on your computer.  
