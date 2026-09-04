@@ -46,7 +46,7 @@ Both should print version numbers. If you get “command not found,” restart y
 
 
 ### Claude Desktop
-Edit `%APPDATA%\Claude\claude_desktop_config.json` (Windows)
+Edit `C:\Users\<YourUsername>\AppData\Roaming\Claude\claude_desktop_config.json` (Windows)
 or `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac):
 
 ```json
