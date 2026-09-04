@@ -55,8 +55,24 @@ If you see "command not found", restart your terminal and try again.
 ### 1. Open Claude Desktop  
 Launch the **Claude Desktop** application on your computer.  
 
-Edit `C:\Users\<YourUsername>\AppData\Roaming\Claude\claude_desktop_config.json` (Windows)
-or `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac):
+### 2. Open Settings
+Go to:
+**Menu → File → Settings**
+
+### 3. Open Developer Settings
+In the Settings window, select **Developer** from the left-side menu.  
+
+### 4. Open the Config File
+
+Click **Edit Config** to open the `claude_desktop_config.json` file.
+
+**Windows default location:**
+
+```text
+C:\Users\<YourUsername>\AppData\Roaming\Claude\claude_desktop_config.json or `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac):  
+
+### 5. Add the QoreNext MCP Server
+Add the following configuration to claude_desktop_config.json and replace qore_xxxxx with your real API key.
 
 ```json
 {
@@ -73,6 +89,14 @@ or `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac):
   }
 }
 ```
+Watch your JSON syntax
+Make sure the JSON braces and commas match exactly — one missing comma will break the file.
+
+### 6. Save the file
+Save your changes (Ctrl+S) and close the editor.
+
+### 6. Restart Claude Desktop
+Fully quit Claude Desktop (not just close the window — exit it from the system tray/taskbar too), then reopen it.
 
 ### Cursor / Windsurf
 Add to `.cursor/mcp.json` or `.windsurf/mcp.json`:
