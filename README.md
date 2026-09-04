@@ -37,12 +37,18 @@ claude mcp add --transport http qorenext-mcp \
 •	Administrator or standard access to edit files in your user profile.  
 
 ## Install Node.js
-Download from nodejs.org (choose the LTS version).     
-Install it — this also installs npm and npx automatically.  
-Verify it worked by opening a terminal (Terminal on Mac, Command Prompt or PowerShell on Windows) and running:  
-node -v  
-npx -v  
-Both should print version numbers. If you get “command not found,” restart your terminal or your computer, then try again.
+
+- Download and install the **LTS version** from [nodejs.org](https://nodejs.org/).
+- The installation includes **npm** and **npx**.
+- Open **Terminal** (Mac) or **Command Prompt/PowerShell** (Windows).
+- Verify the installation:
+
+```bash
+node -v
+npx -v
+
+Both commands should display a version number.  
+If you see "command not found", restart your terminal and try again.  
 
 
 ### Claude Desktop
