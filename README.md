@@ -7,7 +7,7 @@ Qorenext CRM MCP is a [Model Context Protocol](https://modelcontextprotocol.io) 
 ---
 ## Prerequisites:
 •	Node.js and npm installed (npm is used to install the connector package).  
-•	A QoreNext CRM API key.  
+•	A QoreNext CRM api key.  
 •	An active product subscription is required to use Qore MCP.  
 •	Administrator or standard access to edit files in your user profile.
 
@@ -38,7 +38,7 @@ claude mcp add --transport http qorenext-mcp \
 ## Prerequisites:
 •	Claude Desktop installed on Windows.  
 •	Node.js and npm installed (npm is used to install the connector package).  
-•	A QoreNext CRM API key.  
+•	A QoreNext CRM api key.  
 •	An active product subscription is required to use Qore MCP.  
 •	Administrator or standard access to edit files in your user profile.  
 
