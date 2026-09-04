@@ -20,7 +20,7 @@ Sign up at **https://qorenext-app.azurewebsites.net/signup** to get your `QORENE
 7. Copy the API key for use in Claude. 
 ---
 
-## How to connect:
+## How To Connect:
 
 ### A) Claude Code
 ```bash
@@ -28,7 +28,7 @@ claude mcp add --transport http qorenext-mcp \
   "https://mcp.qorenext.com/crm" \
   --header "X-API-Key: YOUR_API_KEY"
 ```
-### 2. Claude Desktop
+### B) Claude Desktop
 
 ## Prerequisites:
 •	Claude Desktop installed on Windows.  
@@ -92,7 +92,7 @@ Make sure the JSON braces and commas match exactly — one missing comma will br
 ### 6. Save the file
 Save your changes (Ctrl+S) and close the editor.
 
-### 6. Restart Claude Desktop
+### 7. Restart Claude Desktop
 Fully quit Claude Desktop (not just close the window — exit it from the system tray/taskbar too), then reopen it.
 
 ### Cursor / Windsurf
