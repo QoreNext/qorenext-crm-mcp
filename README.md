@@ -41,7 +41,7 @@ claude mcp add --transport http qorenext-mcp \
 - Download and install the **LTS version** from [nodejs.org](https://nodejs.org/).
 - The installation includes **npm** and **npx**.
 - Open **Terminal** (Mac) or **Command Prompt/PowerShell** (Windows).
-- Verify the installation:
+- Verify the installation:  
 `bash  
 node -v  
 npx -v  
