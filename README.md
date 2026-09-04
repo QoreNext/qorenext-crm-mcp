@@ -5,6 +5,11 @@
 Qorenext CRM MCP is a [Model Context Protocol](https://modelcontextprotocol.io) server that enables Claude and other AI clients to perform company hierarchy analysis and address verification directly in chat.
 
 ---
+## Prerequisites:
+•	Node.js and npm installed (npm is used to install the connector package).  
+•	A QoreNext CRM API key.  
+•	An active product subscription is required to use Qore MCP.  
+•	Administrator or standard access to edit files in your user profile.
 
 ## Get your API key
 
@@ -13,7 +18,7 @@ Sign up at **https://qorenext-app.azurewebsites.net/signup** to get your `QORENE
 ## Steps to get your API Key
 1. Sign up at **https://qorenext-app.azurewebsites.net/signup**. 
 2. Select the CRM On-Demand Data Quality & Enrichment product. 
-3. An active subscription is required to use Qore MCP.
+3. Buy your plan - An active product subscription is required to use Qore MCP.
 4. Open Profile → APIs. 
 5. Click Generate API Key. 
 6. Give your API key a name and click Create. 
@@ -34,6 +39,7 @@ claude mcp add --transport http qorenext-mcp \
 •	Claude Desktop installed on Windows.  
 •	Node.js and npm installed (npm is used to install the connector package).  
 •	A QoreNext CRM API key.  
+•	An active product subscription is required to use Qore MCP.  
 •	Administrator or standard access to edit files in your user profile.  
 
 ## Install Node.js  
