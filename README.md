@@ -42,8 +42,7 @@ claude mcp add --transport http qorenext-mcp \
 - The installation includes **npm** and **npx**.
 - Open **Terminal** (Mac) or **Command Prompt/PowerShell** (Windows).
 - Verify the installation:
-
-```bash
+`bash
 node -v
 npx -v
 
