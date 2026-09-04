@@ -40,7 +40,7 @@ claude mcp add --transport http qorenext-mcp \
 Download from nodejs.org (choose the LTS version).     
 Install it — this also installs npm and npx automatically.  
 Verify it worked by opening a terminal (Terminal on Mac, Command Prompt or PowerShell on Windows) and running:  
-node -v
+node -v  
 npx -v  
 Both should print version numbers. If you get “command not found,” restart your terminal or your computer, then try again.
 
