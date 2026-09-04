@@ -68,8 +68,9 @@ Click **Edit Config** to open the `claude_desktop_config.json` file.
 
 **Windows default location:**
 
-```text
-C:\Users\<YourUsername>\AppData\Roaming\Claude\claude_desktop_config.json or `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac):  
+text
+C:\Users\<YourUsername>\AppData\Roaming\Claude\claude_desktop_config.json or `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac)
+
 
 ### 5. Add the QoreNext MCP Server
 Add the following configuration to claude_desktop_config.json and replace qore_xxxxx with your real API key.
