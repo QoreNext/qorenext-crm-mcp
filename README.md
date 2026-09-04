@@ -29,6 +29,22 @@ claude mcp add --transport http qorenext-mcp \
   --header "X-API-Key: YOUR_API_KEY"
 ```
 
+## Prerequisites to connect the Qorenext CRM MCP server to Claude Desktop
+
+•	Claude Desktop installed on Windows
+•	Node.js and npm installed (npm is used to install the connector package)
+•	A QoreNext CRM API key
+•	Administrator or standard access to edit files in your user profile
+
+## Install Node.js
+Download from nodejs.org (choose the LTS version).
+Install it — this also installs npm and npx automatically.
+Verify it worked by opening a terminal (Terminal on Mac, Command Prompt or PowerShell on Windows) and running:
+node -v
+npx -v
+Both should print version numbers. If you get “command not found,” restart your terminal or your computer, then try again.
+
+
 ### Claude Desktop
 Edit `%APPDATA%\Claude\claude_desktop_config.json` (Windows)
 or `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac):
