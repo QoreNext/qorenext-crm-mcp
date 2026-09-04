@@ -99,7 +99,7 @@ Make sure the JSON braces and commas match exactly — one missing comma will br
 Save your changes (Ctrl+S) and close the editor.
 
 ### 7. Restart Claude Desktop
-Fully quit Claude Desktop (not just close the window — exit it from the system tray/taskbar too), then reopen it.
+Fully quit Claude Desktop by closing it, exiting it from the system tray/taskbar, and using Task Manager to End Task for any remaining Claude processes running in the background; then reopen Claude Desktop.
 
 ### C) Cursor / Windsurf
 Add to `.cursor/mcp.json` or `.windsurf/mcp.json`:
