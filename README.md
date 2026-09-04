@@ -74,7 +74,7 @@ Add the following configuration to claude_desktop_config.json and replace qore_x
 ```json
 {
   "mcpServers": {
-    "qorenext": {
+    "qorenext-mcp-crm": {
       "command": "npx",
       "args": [
         "mcp-remote",
