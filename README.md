@@ -95,7 +95,7 @@ Save your changes (Ctrl+S) and close the editor.
 ### 7. Restart Claude Desktop
 Fully quit Claude Desktop (not just close the window — exit it from the system tray/taskbar too), then reopen it.
 
-### Cursor / Windsurf
+### C) Cursor / Windsurf
 Add to `.cursor/mcp.json` or `.windsurf/mcp.json`:
 
 ```json
