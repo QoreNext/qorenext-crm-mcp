@@ -22,7 +22,7 @@ Sign up at **https://qorenext-app.azurewebsites.net/signup** to get your `QORENE
 
 ## How to connect:
 
-### ** Claude Code
+### A) Claude Code
 ```bash
 claude mcp add --transport http qorenext-mcp \
   "https://mcp.qorenext.com/crm" \
