@@ -30,7 +30,7 @@ claude mcp add --transport http qorenext-mcp \
 ```
 ### Claude Desktop
 
-### Prerequisites to connect the Qorenext CRM MCP server to Claude Desktop
+## Prerequisites to connect the Qorenext CRM MCP server to Claude Desktop
 •	Claude Desktop installed on Windows.  
 •	Node.js and npm installed (npm is used to install the connector package).  
 •	A QoreNext CRM API key.  
@@ -49,7 +49,7 @@ Both commands should display a version number.
 If you see "command not found", restart your terminal and try again.  
 
 
-### Setup the Claude Desktop
+### Steps to Setup the Claude Desktop
 
 ### 1. Open Claude Desktop  
 Launch the **Claude Desktop** application on your computer.  
