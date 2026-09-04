@@ -107,7 +107,7 @@ Add to `.cursor/mcp.json` or `.windsurf/mcp.json`:
 ```json
 {
   "mcpServers": {
-    "qorenext": {
+    "qorenext-mcp-crm": {
       "command": "npx",
       "args": [
         "mcp-remote",
