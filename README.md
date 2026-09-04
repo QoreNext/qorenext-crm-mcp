@@ -28,6 +28,7 @@ claude mcp add --transport http qorenext-mcp \
   "https://mcp.qorenext.com/crm" \
   --header "X-API-Key: YOUR_API_KEY"
 ```
+### Claude Desktop
 
 ## Prerequisites to connect the Qorenext CRM MCP server to Claude Desktop
 
