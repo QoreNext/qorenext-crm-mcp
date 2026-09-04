@@ -42,9 +42,9 @@ claude mcp add --transport http qorenext-mcp \
 - The installation includes **npm** and **npx**.
 - Open **Terminal** (Mac) or **Command Prompt/PowerShell** (Windows).
 - Verify the installation:
-`bash
-node -v
-npx -v
+`bash  
+node -v  
+npx -v  
 
 Both commands should display a version number.  
 If you see "command not found", restart your terminal and try again.  
