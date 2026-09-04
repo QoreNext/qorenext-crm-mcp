@@ -63,7 +63,8 @@ In the Settings window, select **Developer** from the left-side menu.
 
 ### 4. Open the Config File
 
-Click **Edit Config** to open the `claude_desktop_config.json` file.
+Click **Edit Config** to open the `claude_desktop_config.json` file.  
+Remove the existing command in the file and paste the configuration provided below in Json.
 
 **Windows default location:**  
 C:\Users\<YourUsername>\AppData\Roaming\Claude\claude_desktop_config.json or `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac)
