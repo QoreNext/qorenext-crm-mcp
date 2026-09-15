@@ -177,7 +177,7 @@ map corporate relationships for Samsung from South Korea
 ---
 
 ### `submit_duplicates`
-Submit duplicate account records from files (JSON, CSV, or Excel) for deduplication detection.
+Submit duplicate account records from files (JSON or CSV) for deduplication detection.
 
 **Required:** `file_content`, `file_type`
 
