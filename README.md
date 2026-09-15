@@ -186,7 +186,6 @@ Submit duplicate account records from files (JSON or CSV) for deduplication dete
 **Supported File Types:**
 - `json` - JSON array format
 - `csv` - Comma-separated values with headers
-- `excel` or `xlsx` - Microsoft Excel workbooks
 
 **Required Fields (per record in CSV and Excel files):**
 - `crmAccountId` - Account identifier
