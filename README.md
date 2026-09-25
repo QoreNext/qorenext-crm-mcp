@@ -154,9 +154,6 @@ verify Acme Corp at 123 Main Street, New York, USA
 validate Apple Inc at 1 Apple Park Way, Cupertino, USA
 check Samsung at Samsung Tower, Seoul, South Korea
 
-**Example** - You want to validate Apple Inc. at 1 Apple Park Way, Cupertino, USA
-
-Put in Claude - validate Apple Inc. at 1 Apple Park Way, Cupertino, USA
 ```
 
 ---
