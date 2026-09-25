@@ -297,6 +297,28 @@ Claude: [calls get_request_status]
         Status: COMPLETE
         Address Verified: ✅ Yes
         Business Status: ACTIVE
+
+# ✅ Address Verification Result
+ 
+## Apple Inc.
+ 
+**Submitted**ddress:** 1 Apple Park Way, Cupertino, USA
+ 
+| Field                  | Submitted                          | Verified |
+|------------------------|------------------------------------|----------------------------------|
+| Address                | 1 Apple Park Way, Cupertino, USA   | 1 Apple Park Way, Cupertino, USA |
+| City |                 | Cupertino                          | Cupertino |
+| State                  | California                         | California |
+| Zip                    | 95014                              | 95014 |
+| Country                | United States                      | United States |
+ 
+## Verification Status
+ 
+✅ **Address verified successfully.**
+ 
+The submitted address matches the verified address.
+ 
+**Status:** Confirmed
 ```
 
 **Hierarchy Creation:**
