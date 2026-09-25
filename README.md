@@ -332,7 +332,55 @@ You:    Get status of request 1043
 
 Claude: [calls get_request_status]
         Status: COMPLETE
-        Hierarchy: Acme Corp → Acme Holdings (USA) → GlobalCorp (UK)
+
+# Output Files
+
+# 🌍 Corporate Hierarchy Report
+ 
+## Acme Corp
+ 
+### Top Parent
+ 
+| Role/Level | Entity Name | Parent ID | Country | City | State/Province | Address Line 1 | Postal Code | SIC | NAICS |
+|------------|-------------|-----------|---------|------|----------------|----------------|-------------|-----|-------|
+| Top Parent | Acme Corp | 101 | United States | Milwaukee | Wisconsin | 5445 N 27th St | 53209 | 3421 | 332215 |
+ 
+### Subsidiaries
+ 
+| Entity Name | Country | City | State/Province | Address |
+|-------------|---------|------|----------------|---------|
+| Acme United (Asia Pacific) Limited | Hong Kong | Kwun Tong | - | 57 Hung To Road Nanyang Plaza, Unit 2101 21/F |
+| Acme United China Limited | China | Guangzhou | Guangdong | Zhongshanliu Rd, Unit 1206-1207 12/F Newpoly Tower #2 |
+| Acme United Europe GmbH | Germany | Solingen | - | Junkerstraße 13-15 |
+| Acme United Limited | United States | Shelton | Connecticut | 1 Waterview Drive, Suite 200 |
+| Acme United (APAC) Pte. Ltd. | Singapore | Singapore | - | 9 Raffles Place Republic Plaza, #26-01 |
+| Acme United Netherlands Cooperatie U.A. | Netherlands | Maastricht | Limburg | Kruisdonk 66 |
+ 
+## Contact Information
+ 
+| Entity Name | Phone Number |
+|-------------|--------------|
+| Acme United (Asia Pacific) Limited | 85231677878 |
+| Acme United Europe GmbH | 49212232450 |
+| Acme United Limited | 8008352263 |
+ 
+## Summary
+ 
+- **Top Parent:** Acme Corp
+- **Parent ID:** 101
+- **Total Entities:** 7
+- **Subsidiaries:** 6
+- **Countries Covered:** United States, Hong Kong, China, Germany, Singapore, Netherlands
+- **SIC Code:** 3421
+- **NAICS Code:** 332215
+ 
+## Verification Status
+ 
+✅ **Corporate hierarchy extracted successfully.**
+ 
+The hierarchy contains one top parent entity and six subsidiary entities linked to Parent ID **101**.
+ 
+**Status:** Confirmed
 ```
 
 ---
