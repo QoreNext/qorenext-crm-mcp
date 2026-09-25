@@ -304,13 +304,13 @@ Claude: [calls get_request_status]
  
 **Submitted**ddress:** 1 Apple Park Way, Cupertino, USA
  
-| Field                  | Submitted                          | Verified |
+| Field                  | Submitted                          | Verified                         |
 |------------------------|------------------------------------|----------------------------------|
 | Address                | 1 Apple Park Way, Cupertino, USA   | 1 Apple Park Way, Cupertino, USA |
-| City |                 | Cupertino                          | Cupertino |
-| State                  | California                         | California |
-| Zip                    | 95014                              | 95014 |
-| Country                | United States                      | United States |
+| City |                 | Cupertino                          | Cupertino                        |
+| State                  | California                         | California                       |
+| Zip                    | 95014                              | 95014                            |
+| Country                | United States                      | United States                    |
  
 ## Verification Status
  
