@@ -337,6 +337,94 @@ Claude: [calls get_request_status]
 
 ---
 
+# CRM Deduplication Submission
+ 
+You: Submit deduplication file CRM_Dedupe_TestSet.csv
+ 
+Claude: [calls submit_duplicates]
+         ✅ Submitted Successfully
+ 
+         File: CRM_Dedupe_TestSet.csv
+         Request ID: 203
+         Records Submitted: 500
+ 
+You: Get status of request 203
+ 
+Claude: [calls get_request_status]
+ 
+         Status: COMPLETE
+         Records Accepted: ✅ 500
+         Records Rejected: 0
+
+# Output Files
+ 
+After processing the CRM data, the tool generates two output files.
+ 
+## 1. Detailed Matching Results File
+ 
+This file contains the result for **every CRM record** submitted in the input file.
+ 
+It shows whether each record was matched with another record based on company name and address.
+ 
+| Column | Meaning |
+|---------|---------|
+| Group No | Number assigned to records that belong to the same possible duplicate group. |
+| Parent ID | The main or selected CRM record ID for that group. |
+| Matched CRM ID | The CRM record ID being checked. |
+| CRM Account Name | Company name from the CRM. |
+| Address | Address of the CRM account. |
+| Verdict | Match result: **Strong Match**, **Partial Match**, or **No Match**. |
+| Score | Similarity score between the company name and address. Higher scores indicate a closer match. |
+ 
+### Verdict Meanings
+ 
+- **Strong Match** - Records are highly likely to be duplicates.
+- **Partial Match** - Records are similar and may need review.
+- **No Match** - No duplicate match was found for that record.
+ 
+### Example
+ 
+| Group No | Parent ID | Matched CRM ID | CRM Account Name | Address | Verdict | Score |
+|----------|-----------|----------------|------------------|----------|---------|-------|
+| 1 | CRM3001B | CRM3001B | MetroVale Tech Partners Ltd. | 143 E Indl Pkwy | No Match | 0 |
+| 2 | CRM3002B | CRM3002B | Northstar Logic Information Sys. Limited | 180 Mt Pleasant Rd | No Match | 0 |
+| 3 | CRM3002A | CRM3002A | Northstar Logic Information Systems Limited | 180 Mt Pleasant Rd | Strong Match | 95 |
+| 3 | CRM3002A | CRM3002B | Northstar Logic Information Sys. Limited | 180 Mt Pleasant Rd | Strong Match | 95 |
+ 
+---
+ 
+## 2. Unique Records File
+ 
+This file provides a cleaned list of records to keep.
+ 
+For every duplicate group, it includes only **one selected CRM record**. If a group has strong or partial duplicate matches, the remaining records in that group are not repeated in this file.
+ 
+All records with a **No Match** verdict are also included because they are already unique.
+ 
+For example, if one group contains two partial matches and one strong match, this file will show only one selected record from that group.
+ 
+| Column | Meaning |
+|---------|---------|
+| Group No | The group number assigned during matching. |
+| Matched CRM ID | The selected unique CRM record ID. |
+| CRM Account Name | Company name of the selected record. |
+| Address | Address of the selected record. |
+ 
+### Example
+ 
+| Group No | Matched CRM ID | CRM Account Name | Address |
+|----------|----------------|------------------|----------|
+| 1 | DD011 | Northstar Analytics Pvt Ltd | India 42 Park View Road, Sector 18, Noida, Dist. Gautam Buddha Nagar, UP 201301 |
+| 2 | DD012 | BluePeak Technologies Inc | United States 1250 Market Street, Suite 400, San Francisco, CA 94102 |
+| 3 | DD022 | GREENFIELD LOGISTICS LLC | United States 8800 Westheimer Road, Houston, Texas 77063 |
+ 
+---
+ 
+## Summary
+ 
+- Use the **Detailed Matching Results File** to review all matching decisions.
+- Use the **Unique Records File** when you need one record per duplicate group, along with all records that did not match any other records.
+
 ## Support
 
 - Issues: https://github.com/QoreNext/qorenext-crm-mcp/issues
