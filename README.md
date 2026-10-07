@@ -101,7 +101,7 @@ Save your changes (Ctrl+S) and close the editor.
 ### 7. Restart Claude Desktop
 Fully quit Claude Desktop by closing it, exiting it from the system tray/taskbar, and using Task Manager to End Task for any remaining Claude processes running in the background; then reopen Claude Desktop.
 
-# ChatGPT Desktop
+### C) ChatGPT Desktop
 
 This guide explains how to configure the QoreNext MCP Server in the ChatGPT Desktop application.
 
