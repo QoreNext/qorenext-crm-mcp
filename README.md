@@ -111,20 +111,18 @@ This guide explains how to configure the QoreNext MCP Server in the ChatGPT Desk
 - A valid QoreNext API key.
 - Internet connectivity.
 
-## Step 1: Open ChatGPT Desktop
-
-### 1. Open Claude Desktop  
+### Step 1: Open ChatGPT Desktop
 
 1. Launch the ChatGPT Desktop application.
 2. At the top of the ChatGPT window, locate the mode dropdown above the **New Chat** icon.
 3. Change the mode to **Codex**.
 
-## Step 2: Open Settings
+### Step 2: Open Settings
 
 1. Click your profile icon in the bottom-left corner of the ChatGPT window.
 2. Select **Settings**.
 
-## Step 3: Open Plugins
+### Step 3: Open Plugins
 
 Navigate to:
 
@@ -132,12 +130,12 @@ Navigate to:
 Integrations → Plugins
 ```
 
-## Step 4: Add an MCP Server
+### Step 4: Add an MCP Server
 
 1. In the Plugins window, click the **Add** dropdown.
 2. Select **Add MCP Server**.
 
-## Step 5: Configure the QoreNext MCP Server
+### Step 5: Configure the QoreNext MCP Server
 
 ### Name
 
@@ -165,13 +163,13 @@ X-API-Key: YOUR_API_KEY
 
 **Replace `YOUR_API_KEY` with your actual QoreNext API key.
 
-## Step 6: Save the MCP Server
+### Step 6: Save the MCP Server
 
 1. Verify all fields and arguments.
 2. Click **Save**.
 3. Close the configuration window.
 
-## Step 7: Restart ChatGPT Desktop
+### Step 7: Restart ChatGPT Desktop
 
 1. Close ChatGPT Desktop completely.
 2. Open Task Manager and end any remaining ChatGPT processes.
