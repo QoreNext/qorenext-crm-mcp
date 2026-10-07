@@ -113,6 +113,8 @@ This guide explains how to configure the QoreNext MCP Server in the ChatGPT Desk
 
 ## Step 1: Open ChatGPT Desktop
 
+### 1. Open Claude Desktop  
+
 1. Launch the ChatGPT Desktop application.
 2. At the top of the ChatGPT window, locate the mode dropdown above the **New Chat** icon.
 3. Change the mode to **Codex**.
