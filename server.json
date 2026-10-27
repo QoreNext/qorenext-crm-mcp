@@ -1,8 +1,10 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.QoreNext/qorenext-crm-mcp",
-  "description": "Company hierarchy analysis and address verification via MCP",
-  "version": "1.0.1",
+  "title": "QoreNext CRM",
+  "description": "Company hierarchy, address verification and CRM duplicate detection via MCP",
+  "version": "1.0.2",
+  "websiteUrl": "https://qorenext.com",
   "repository": {
     "url": "https://github.com/QoreNext/qorenext-crm-mcp",
     "source": "github"
@@ -14,59 +16,25 @@
       "headers": [
         {
           "name": "X-API-Key",
-          "value": "${QORENEXT_API_KEY}"
-        },
-        {
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "name": "Accept",
-          "value": "application/json"
+          "description": "QoreNext API key: Profile > APIs at https://qorenext-app.azurewebsites.net/signup",
+          "isRequired": true,
+          "isSecret": true
         }
       ]
     }
   ],
-  "environmentVariables": [
-    {
-      "name": "QORENEXT_API_KEY",
-      "description": "Your QornextMCP API key. Get one at https://qorenext-app.azurewebsites.net/signup",
-      "isRequired": true,
-      "isSecret": true,
-      "format": "string"
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "tools": [
+        "health_check",
+        "submit_address_verification",
+        "submit_hierarchy_creation",
+        "submit_duplicates",
+        "get_request_status"
+      ],
+      "categories": ["verification", "hierarchy", "company-data", "deduplication"],
+      "license": "MIT",
+      "contact": "support@qorenext.com"
     }
-  ],
-  "tools": [
-    {
-      "name": "health_check",
-      "description": "Verify MCP server is operational and get version info. No authentication required."
-    },
-    {
-      "name": "submit_address_verification",
-      "description": "Submit companies for address verification. Validate company addresses and verify organization legitimacy. Required fields: companyName, country, address."
-    },
-    {
-      "name": "submit_hierarchy_creation",
-      "description": "Submit companies for organizational hierarchy creation. Identify parent-subsidiary relationships and organizational structure. Required fields: companyName, country."
-    },
-    {
-      "name": "submit_duplicates",
-      "description": "Submit duplicate entities from JSON, CSV, or Excel files for detection and merging. Required fields: crmAccountId, crmAccountName, addressLine1, country."
-    },
-    {
-      "name": "get_request_status",
-      "description": "Get status and results of a screening request. Returns PENDING, PROCESSING, COMPLETE or FAILED with detailed results."
-    }
-  ],
-  "categories": [
-    "verification",
-    "hierarchy",
-    "company-data",
-    "deduplication"
-  ],
-  "license": "MIT",
-  "contact": {
-    "email": "support@qorenext.com",
-    "url": "https://qorenext.com"
   }
 }
